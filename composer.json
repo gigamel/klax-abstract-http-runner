@@ -1,0 +1,26 @@
+{
+  "name": "klax/abstract-http-runner",
+  "description": "Abstract HTTP runner",
+  "autoload": {
+    "psr-4": {
+      "Klax\\Http\\Skeleton\\Runner\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "klax/http-runner-contracts": "^1.0.0",
+    "klax/container-contract": "^0.0.1",
+    "psr/http-message": "^2.0",
+    "psr/http-server-handler": "^1.0"
+  },
+  "repositories": {
+    "klax/http-runner-contracts": {
+      "type": "vcs",
+      "url": "https://github.com/gigamel/klax-http-runner-contracts.git"
+    },
+    "klax/container-contract": {
+      "type": "vcs",
+      "url": "https://github.com/gigamel/klax-container-contract.git"
+    }
+  }
+}
